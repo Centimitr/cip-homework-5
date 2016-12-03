@@ -44,14 +44,14 @@ int main(void)
     }
 
 	// 1,2
-	unsigned char hz[3] = "ºº";
+	unsigned char hz[3] = "ÂºÂº";
 	hz2buf(hz,fp,buf);
 	print(buf,"*"," ");
 	print(buf," ","*");
 	print(buf,"**","  ");
 
 	// 3
-	unsigned char name[6] = "Ê·Ïş";
+	unsigned char name[6] = "ÃŠÂ·ÃÃ¾";
 	hz2buf(name,fp,buf);
 	print(buf,"**","  ");
 	fwrite(buf,1,32,fp2);
